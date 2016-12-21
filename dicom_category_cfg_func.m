@@ -10,7 +10,8 @@ input2 = cfg_files;
 input2.name = 'output dirctory';
 input2.tag = 'dirtoOutput';
 input2.filter = {'dir'};
-input2.help = {'choose the directory to output the category'};
+input2.num = [0 1];
+input2.help = {'choose one directory to output the category'};
 
 dicom_sort_cfg = cfg_exbranch;
 dicom_sort_cfg.name = 'the utils to sort the dicom files';
