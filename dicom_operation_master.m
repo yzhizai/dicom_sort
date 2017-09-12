@@ -10,7 +10,7 @@ module1.help = {'sort the dicom files'};
 module3 = cfg_repeat;
 module3.name = 'image modification';
 module3.tag = 'modify_img';
-module3.values = {image_roi_cfg};
+module3.values = {image_roi_cfg, imgfilter_cfg};
 module3.forcestruct = true;
 module3.help = {'This module is used to eliminate the tissue in files', ...
     'the select row/col/slice will be assigned to be 0'};

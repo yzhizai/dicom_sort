@@ -1,6 +1,0 @@
-function cfg = dicom_operation_master
-
-module1 = cfg_repeat;
-module1.name = 'sort the dicom files';
-module1.tag = 'dicom_sort';
-module1.val = {};
